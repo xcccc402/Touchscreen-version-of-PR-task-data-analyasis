@@ -1,0 +1,817 @@
+Name,PROGRESSIVE RATIO_4_800
+EnvironmentName,Chamber3 [3]
+Date,03/08/2020 14:19:34
+DataBaseName,pbb
+SessionId,375
+Index,37
+Version,N/A
+MachineName,CI24364-1
+SGuid,
+Animal ID,9
+Application_Version,ABET II Touch 2.19.5834.17763
+Group ID,cort-acsf
+Max_Number_Trials,0
+Max_Schedule_Time,3600
+Schedule_Description,PR PROBE
+Schedule_Start_Time,2020-08-03T14:19:34.721
+
+----------
+Auto,Time,EventId,EventText,EffectText,AltText,Group,ArgCount,Text1,Value1,Text2,Value2,Text3,Value3,Text4,Value4,Text5,Value5
+0,0,DefineInput,Input Definition,(SYSTEM),,0,5,Tray #1,0,BIRBeam #1,1,FIRBeam #1,2,RightFIRBeam #1,3,FeederFault #1,4
+1,0,DefineInput,Input Definition,(SYSTEM),,0,1,FeederReport #1,5,,0,,0,,0,,0
+2,0,DefineOutput,Output Definition,(SYSTEM),,0,5,HouseLight #1,0,TrayLight #1,1,Feeder #1,2,Sound_On #1,3,White_Noise_Off #1,4
+3,0,DefineOutput,Output Definition,(SYSTEM),,0,3,Sound #1,5,Sound #2,6,Sound #3,7,,0,,0
+4,0,Variable,Variable Event,_Schedule_Timer,,0,1,Value,0,,0,,0,,0,,0
+5,0,Variable,Variable Event,_Trial_Counter,,0,1,Value,0,,0,,0,,0,,0
+6,0,Variable,Variable Event,_Trial_Timer,,0,1,Value,0,,0,,0,,0,,0
+7,0,Variable,Variable Event,Blank_Touch_Counter,,0,1,Value,0,,0,,0,,0,,0
+8,0,Variable,Variable Event,CENTRE_TOUCHES_DURING_ITI,,0,1,Value,0,,0,,0,,0,,0
+9,0,Variable,Variable Event,Correct_Counter,,0,1,Value,0,,0,,0,,0,,0
+10,0,Variable,Variable Event,Correct_Grid_Position,,0,1,Value,0,,0,,0,,0,,0
+11,0,Variable,Variable Event,Feeder_Pulse_Time,,0,1,Value,800,,0,,0,,0,,0
+12,0,Variable,Variable Event,First_Trial,,0,1,Value,1,,0,,0,,0,,0
+13,0,Variable,Variable Event,GRID_1_BLANK_TOUCH,,0,1,Value,0,,0,,0,,0,,0
+14,0,Variable,Variable Event,GRID_2_BLANK_TOUCH,,0,1,Value,0,,0,,0,,0,,0
+15,0,Variable,Variable Event,GRID_4_BLANK_TOUCH,,0,1,Value,0,,0,,0,,0,,0
+16,0,Variable,Variable Event,GRID_5_BLANK_TOUCH,,0,1,Value,0,,0,,0,,0,,0
+17,0,Variable,Variable Event,Houselight_Normally_On,,0,1,Value,0,,0,,0,,0,,0
+18,0,Variable,Variable Event,ITI,,0,1,Value,0.5,,0,,0,,0,,0
+19,0,Variable,Variable Event,ITI_Timer,,0,1,Value,0,,0,,0,,0,,0
+20,0,Variable,Variable Event,LAST_PR_COMPLETED,,0,1,Value,0,,0,,0,,0,,0
+21,0,Variable,Variable Event,Left_Touches_during_ITI,,0,1,Value,0,,0,,0,,0,,0
+22,0,Variable,Variable Event,MAG_RESPONSE_TIMER,,0,1,Value,0,,0,,0,,0,,0
+23,0,Variable,Variable Event,PR_BLOCKS_COMPLETED,,0,1,Value,0,,0,,0,,0,,0
+24,0,Variable,Variable Event,PROGRESSIVE_RATIO_COUNTER,,0,1,Value,0,,0,,0,,0,,0
+25,0,Variable,Variable Event,REQUIRED_RATIO,,0,1,Value,1,,0,,0,,0,,0
+26,0,Variable,Variable Event,Response_Period,,0,1,Value,300,,0,,0,,0,,0
+27,0,Variable,Variable Event,Response_Timer,,0,1,Value,0,,0,,0,,0,,0
+28,0,Variable,Variable Event,REWARD_NEXT_TRIAL_DELAY,,0,1,Value,4.5,,0,,0,,0,,0
+29,0,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,0,1,Value,0,,0,,0,,0,,0
+30,0,Variable,Variable Event,Reward_Tone_Duration,,0,1,Value,1000,,0,,0,,0,,0
+31,0,Variable,Variable Event,Right_touches_during_ITI,,0,1,Value,0,,0,,0,,0,,0
+32,0,Variable,Variable Event,Touch_tone_duration,,0,1,Value,10,,0,,0,,0,,0
+33,0,ListDatawriteImagePattern,Image List Definition,Background,,0,1,Bussey Mouse Operant Mode 5 x 1 x low,6,,0,,0,,0,,0
+34,0,ListDatawriteImage,List Array - Write,Background,,0,1,Image 1,1,,0,,0,,0,,0
+35,0,ListSet,List Change - Set,Background,,0,2,Index,1,Value,1,,0,,0,,0
+36,0,ListDatawrite,List Array - Write,Grid_Position,,0,5,Item #1,3,Item #2,3,Item #3,3,Item #4,3,Item #5,3
+37,0,ListDatawrite,List Array - Write,Grid_Position,,0,5,Item #6,3,Item #7,3,Item #8,3,Item #9,3,Item #10,3
+38,0,ListSet,List Change - Set,Grid_Position,,0,2,Index,1,Value,3,,0,,0,,0
+39,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #1,1,Item #2,5,Item #3,9,Item #4,13,Item #5,17
+40,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #6,21,Item #7,25,Item #8,29,Item #9,33,Item #10,37
+41,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #11,41,Item #12,45,Item #13,49,Item #14,53,Item #15,57
+42,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #16,61,Item #17,65,Item #18,69,Item #19,73,Item #20,77
+43,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #21,81,Item #22,85,Item #23,89,Item #24,93,Item #25,97
+44,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #26,101,Item #27,105,Item #28,109,Item #29,113,Item #30,117
+45,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #31,121,Item #32,125,Item #33,129,Item #34,133,Item #35,137
+46,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #36,141,Item #37,145,Item #38,149,Item #39,153,Item #40,157
+47,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #41,161,Item #42,165,Item #43,169,Item #44,173,Item #45,177
+48,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #46,181,Item #47,185,Item #48,189,Item #49,193,Item #50,197
+49,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #51,201,Item #52,205,Item #53,209,Item #54,213,Item #55,217
+50,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #56,221,Item #57,225,Item #58,229,Item #59,233,Item #60,237
+51,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #61,241,Item #62,245,Item #63,249,Item #64,253,Item #65,257
+52,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #66,261,Item #67,265,Item #68,269,Item #69,273,Item #70,277
+53,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #71,281,Item #72,285,Item #73,289,Item #74,293,Item #75,297
+54,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #76,301,Item #77,305,Item #78,309,Item #79,313,Item #80,317
+55,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #81,321,Item #82,325,Item #83,329,Item #84,333,Item #85,337
+56,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #86,341,Item #87,345,Item #88,349,Item #89,353,Item #90,357
+57,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #91,361,Item #92,365,Item #93,369,Item #94,373,Item #95,377
+58,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #96,381,Item #97,385,Item #98,389,Item #99,393,Item #100,397
+59,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #101,401,Item #102,405,Item #103,409,Item #104,413,Item #105,417
+60,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #106,421,Item #107,425,Item #108,429,Item #109,433,Item #110,437
+61,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #111,441,Item #112,445,Item #113,449,Item #114,453,Item #115,457
+62,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #116,461,Item #117,465,Item #118,469,Item #119,473,Item #120,477
+63,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #121,481,Item #122,485,Item #123,489,Item #124,493,Item #125,497
+64,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #126,501,Item #127,505,Item #128,509,Item #129,513,Item #130,517
+65,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #131,521,Item #132,525,Item #133,529,Item #134,533,Item #135,537
+66,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #136,541,Item #137,545,Item #138,549,Item #139,553,Item #140,557
+67,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #141,561,Item #142,565,Item #143,569,Item #144,573,Item #145,577
+68,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #146,581,Item #147,585,Item #148,589,Item #149,593,Item #150,597
+69,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #151,601,Item #152,605,Item #153,609,Item #154,613,Item #155,617
+70,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #156,621,Item #157,625,Item #158,629,Item #159,633,Item #160,637
+71,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #161,641,Item #162,645,Item #163,649,Item #164,653,Item #165,657
+72,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #166,661,Item #167,665,Item #168,669,Item #169,673,Item #170,677
+73,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #171,681,Item #172,685,Item #173,689,Item #174,693,Item #175,697
+74,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #176,701,Item #177,705,Item #178,709,Item #179,713,Item #180,717
+75,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #181,721,Item #182,725,Item #183,729,Item #184,733,Item #185,737
+76,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #186,741,Item #187,745,Item #188,749,Item #189,753,Item #190,757
+77,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #191,761,Item #192,765,Item #193,769,Item #194,773,Item #195,777
+78,0,ListDatawrite,List Array - Write,PROGRESSIVE_RATIO_STEP,,0,5,Item #196,781,Item #197,785,Item #198,789,Item #199,793,Item #200,797
+79,0,ListSet,List Change - Set,PROGRESSIVE_RATIO_STEP,,0,2,Index,1,Value,1,,0,,0,,0
+80,0,ListDatawriteImagePattern,Image List Definition,Training_Images,,0,1,Bussey Mouse Operant Mode 5 x 1 x low,6,,0,,0,,0,,0
+81,0,ListDatawriteImage,List Array - Write,Training_Images,,0,1,Image 1,1,,0,,0,,0,,0
+82,0,ListSet,List Change - Set,Training_Images,,0,2,Index,1,Value,1,,0,,0,,0
+83,0,ScheduleStart,Schedule Startup Event,(SYSTEM),,0,0,,0,,0,,0,,0,,0
+84,0,Timer,Timer Event,_Schedule_Timer,,0,1,Value,0,,0,,0,,0,,0
+85,0.011,Group,Group Change Event,Group Change,,0,1,New Group,1,,0,,0,,0,,0
+86,0.014,Condition,Condition Event,Set Blank Images,,1,0,,0,,0,,0,,0,,0
+87,0.014,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,1,2,Position,1,Image 1,0,,0,,0,,0
+88,0.014,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,1,2,Position,2,Image 1,0,,0,,0,,0
+89,0.014,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,1,2,Position,3,Image 1,0,,0,,0,,0
+90,0.014,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,1,2,Position,4,Image 1,0,,0,,0,,0
+91,0.014,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,1,2,Position,5,Image 1,0,,0,,0,,0
+92,0.014,OutputOn,Output On Event,White_Noise_Off #1,,1,0,,0,,0,,0,,0,,0
+93,0.014,Variable,Variable Event,REQUIRED_RATIO,,1,1,Value,1,,0,,0,,0,,0
+94,0.014,Group,Group Change Event,Group Change,,1,1,New Group,2,,0,,0,,0,,0
+95,0.02,Condition,Condition Event,Set Image position,,2,0,,0,,0,,0,,0,,0
+96,0.02,Variable,Variable Event,Correct_Grid_Position,,2,1,Value,3,,0,,0,,0,,0
+97,0.02,ListNextValue,List Change - Next Value,Grid_Position,,2,2,Index,2,Value,3,,0,,0,,0
+98,0.02,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+99,0.02,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+100,0.02,Group,Group Change Event,Group Change,,2,1,New Group,4,,0,,0,,0,,0
+101,0.021,Condition,Condition Event,Start ITI,,4,0,,0,,0,,0,,0,,0
+102,0.021,Timer,Timer Event,ITI_Timer,,4,1,Value,0,,0,,0,,0,,0
+103,0.021,Group,Group Change Event,Group Change,,4,1,New Group,5,,0,,0,,0,,0
+104,0.521,Condition,Condition Event,ITI TO IMAGE TRANSITION,,5,0,,0,,0,,0,,0,,0
+105,0.521,Group,Group Change Event,Group Change,,5,1,New Group,6,,0,,0,,0,,0
+106,0.522,Condition,Condition Event,Display Image,,6,0,,0,,0,,0,,0,,0
+107,0.522,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Training_Images,6,2,Position,3,Image 1,0,,0,,0,,0
+108,0.522,OutputOff,Output Off Event,TrayLight #1,,6,0,,0,,0,,0,,0,,0
+109,0.522,Timer,Timer Event,Response_Timer,,6,1,Value,0,,0,,0,,0,,0
+110,0.522,Group,Group Change Event,Group Change,,6,1,New Group,7,,0,,0,,0,,0
+111,1.347,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+112,2.279,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+113,2.552,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+114,2.784,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+115,4.248,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+116,4.518,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+117,4.868,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+118,5.488,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+119,9.736,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+120,16.231,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+121,16.335,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+122,22.224,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+123,25.88,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+124,26.609,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+125,27.008,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+126,27.291,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+127,28.541,InputTransitionOn,Input Transition On Event,Tray #1,,7,0,,0,,0,,0,,0,,0
+128,30.558,InputTransitionOff,Input Transition Off Event,Tray #1,,7,0,,0,,0,,0,,0,,0
+129,35.581,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+130,37.14,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+131,37.613,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+132,39.456,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+133,40.096,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+134,41.248,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+135,46.251,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+136,46.455,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+137,48.229,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+138,48.771,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+139,49.075,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+140,49.21,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+141,49.431,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+142,51.794,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,3,Image 1,0,CoordX,93,CoordY,109,,0
+143,51.795,Condition,Condition Event,Image Touched,,7,0,,0,,0,,0,,0,,0
+144,51.795,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,7,2,Position,3,Image 1,0,,0,,0,,0
+145,51.795,OutputOn,Output On Event,Sound #2,,7,0,,0,,0,,0,,0,,0
+146,51.795,Pulse,Pulse Output Event,Sound_On #1,,7,1,Duration,0.01,,0,,0,,0,,0
+147,51.795,Variable,Variable Event,Correct_Counter,,7,1,Value,1,,0,,0,,0,,0
+148,51.795,Variable,Variable Event,PROGRESSIVE_RATIO_COUNTER,,7,1,Value,1,,0,,0,,0,,0
+149,51.795,Variable,Variable Event,Response_Timer,,7,1,Value,51.273,,0,,0,,0,,0
+150,51.795,Variable,Variable Event,Response_Timer,,7,1,Value,0,,0,,0,,0,,0
+151,51.795,Variable,Variable Event,First_Trial,,7,1,Value,0,,0,,0,,0,,0
+152,51.795,Group,Group Change Event,Group Change,,7,1,New Group,9,,0,,0,,0,,0
+153,51.797,Condition,Condition Event,PROGRESSIVE RATIO END CALC,,9,0,,0,,0,,0,,0,,0
+154,51.797,OutputOn,Output On Event,TrayLight #1,,9,0,,0,,0,,0,,0,,0
+155,51.797,Pulse,Pulse Output Event,Sound_On #1,,9,1,Duration,1,,0,,0,,0,,0
+156,51.797,Pulse,Pulse Output Event,Feeder #1,,9,1,Duration,0.8,,0,,0,,0,,0
+157,51.797,Variable,Variable Event,LAST_PR_COMPLETED,,9,1,Value,1,,0,,0,,0,,0
+158,51.797,Timer,Timer Event,MAG_RESPONSE_TIMER,,9,1,Value,0,,0,,0,,0,,0
+159,51.797,Group,Group Change Event,Group Change,,9,1,New Group,10,,0,,0,,0,,0
+160,51.89,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,10,4,Position,3,Image 1,0,CoordX,93,CoordY,109,,0
+161,52.14,InputTransitionOn,Input Transition On Event,FIRBeam #1,,10,0,,0,,0,,0,,0,,0
+162,52.41,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,10,0,,0,,0,,0,,0,,0
+163,52.487,InputTransitionOn,Input Transition On Event,BIRBeam #1,,10,0,,0,,0,,0,,0,,0
+164,53.095,InputTransitionOn,Input Transition On Event,Tray #1,,10,0,,0,,0,,0,,0,,0
+165,53.096,Condition,Condition Event,Reward Collected Start Reward Next Trial Delay,,10,0,,0,,0,,0,,0,,0
+166,53.096,OutputOff,Output Off Event,TrayLight #1,,10,0,,0,,0,,0,,0,,0
+167,53.096,Variable,Variable Event,PROGRESSIVE_RATIO_COUNTER,,10,1,Value,0,,0,,0,,0,,0
+168,53.096,Variable,Variable Event,MAG_RESPONSE_TIMER,,10,1,Value,1.299,,0,,0,,0,,0
+169,53.096,Variable,Variable Event,MAG_RESPONSE_TIMER,,10,1,Value,0,,0,,0,,0,,0
+170,53.096,ListNextValue,List Change - Next Value,PROGRESSIVE_RATIO_STEP,,10,2,Index,2,Value,5,,0,,0,,0
+171,53.096,Variable,Variable Event,REQUIRED_RATIO,,10,1,Value,5,,0,,0,,0,,0
+172,53.096,Variable,Variable Event,PR_BLOCKS_COMPLETED,,10,1,Value,1,,0,,0,,0,,0
+173,53.096,Variable,Variable Event,_Trial_Counter,,10,1,Value,1,,0,,0,,0,,0
+174,53.096,Variable,Variable Event,ITI_Timer,,10,1,Value,53.074,,0,,0,,0,,0
+175,53.096,Variable,Variable Event,ITI_Timer,,10,1,Value,0,,0,,0,,0,,0
+176,53.096,Timer,Timer Event,REWARD_NEXT_TRIAL_TIMER,,10,1,Value,0,,0,,0,,0,,0
+177,53.096,Group,Group Change Event,Group Change,,10,1,New Group,11,,0,,0,,0,,0
+178,55.903,InputTransitionOff,Input Transition Off Event,Tray #1,,11,0,,0,,0,,0,,0,,0
+179,57.45,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,11,0,,0,,0,,0,,0,,0
+180,57.596,Condition,Condition Event,REWARD NEXT TRIAL DELAY END START NEXT TRIAL,,11,0,,0,,0,,0,,0,,0
+181,57.596,Group,Group Change Event,Group Change,,11,1,New Group,2,,0,,0,,0,,0
+182,57.596,Condition,Condition Event,Set Image position,,2,0,,0,,0,,0,,0,,0
+183,57.596,Variable,Variable Event,Correct_Grid_Position,,2,1,Value,3,,0,,0,,0,,0
+184,57.596,ListNextValue,List Change - Next Value,Grid_Position,,2,2,Index,3,Value,3,,0,,0,,0
+185,57.596,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,4.5,,0,,0,,0,,0
+186,57.596,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+187,57.596,Group,Group Change Event,Group Change,,2,1,New Group,4,,0,,0,,0,,0
+188,57.596,Condition,Condition Event,Start ITI,,4,0,,0,,0,,0,,0,,0
+189,57.596,Timer,Timer Event,ITI_Timer,,4,1,Value,0,,0,,0,,0,,0
+190,57.596,Group,Group Change Event,Group Change,,4,1,New Group,5,,0,,0,,0,,0
+191,58.096,Condition,Condition Event,ITI TO IMAGE TRANSITION,,5,0,,0,,0,,0,,0,,0
+192,58.096,Group,Group Change Event,Group Change,,5,1,New Group,6,,0,,0,,0,,0
+193,58.096,Condition,Condition Event,Display Image,,6,0,,0,,0,,0,,0,,0
+194,58.096,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Training_Images,6,2,Position,3,Image 1,0,,0,,0,,0
+195,58.096,OutputOff,Output Off Event,TrayLight #1,,6,0,,0,,0,,0,,0,,0
+196,58.096,Timer,Timer Event,Response_Timer,,6,1,Value,0,,0,,0,,0,,0
+197,58.096,Group,Group Change Event,Group Change,,6,1,New Group,7,,0,,0,,0,,0
+198,58.156,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+199,58.474,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+200,58.56,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+201,58.618,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+202,59.508,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+203,62.972,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+204,63.284,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+205,64.26,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+206,64.504,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+207,64.909,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+208,65.138,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,73,CoordY,94,,0
+209,65.138,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+210,65.138,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+211,65.138,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,1,,0,,0,,0,,0
+212,65.138,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,1,,0,,0,,0,,0
+213,65.138,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+214,65.195,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,75,CoordY,94,,0
+215,71.627,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,96,CoordY,109,,0
+216,71.628,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+217,71.628,Condition,Condition Event,GRID 5 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+218,71.628,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,2,,0,,0,,0,,0
+219,71.628,Variable,Variable Event,GRID_5_BLANK_TOUCH,,7,1,Value,1,,0,,0,,0,,0
+220,71.628,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+221,72.046,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,87,CoordY,109,,0
+222,83.743,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,6,CoordY,109,,0
+223,83.743,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+224,83.743,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+225,83.743,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,3,,0,,0,,0,,0
+226,83.743,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,2,,0,,0,,0,,0
+227,83.743,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+228,84.028,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,47,CoordY,58,,0
+229,93.751,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+230,94.147,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+231,97.513,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+232,98.191,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+233,101.233,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+234,102.47,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+235,102.924,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+236,103.538,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+237,103.997,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+238,104.143,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+239,105.868,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+240,105.991,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+241,106.666,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+242,107.088,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+243,107.501,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+244,107.578,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+245,107.759,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+246,107.825,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+247,109.22,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+248,109.713,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+249,110.835,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+250,111.702,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+251,111.768,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+252,112.041,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+253,113.548,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,101,CoordY,118,,0
+254,113.549,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+255,113.549,Condition,Condition Event,GRID 2 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+256,113.549,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,4,,0,,0,,0,,0
+257,113.549,Variable,Variable Event,GRID_2_BLANK_TOUCH,,7,1,Value,1,,0,,0,,0,,0
+258,113.549,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+259,113.605,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,92,CoordY,118,,0
+260,118.758,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+261,118.982,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+262,121.092,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+263,125.024,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+264,125.434,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+265,130.628,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+266,131.256,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+267,133.836,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+268,135.256,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+269,136.149,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+270,136.474,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+271,137.754,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+272,143.761,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+273,144.079,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+274,144.271,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+275,144.555,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+276,144.584,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+277,144.593,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+278,144.606,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,29,CoordY,108,,0
+279,144.606,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+280,144.606,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+281,144.606,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,5,,0,,0,,0,,0
+282,144.606,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,3,,0,,0,,0,,0
+283,144.606,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+284,144.625,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,29,CoordY,108,,0
+285,144.633,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+286,144.644,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,0,(NoImageOrVideo),-1,CoordX,0,CoordY,530,,0
+287,144.663,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,0,(NoImageOrVideo),-1,CoordX,0,CoordY,530,,0
+288,144.86,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+289,144.908,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+290,144.931,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+291,145.207,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+292,158.295,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+293,159.251,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+294,160.912,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+295,161.01,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+296,161.334,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+297,161.756,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+298,162.057,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+299,163.883,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+300,166.931,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+301,169.321,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+302,172.963,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+303,174.665,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+304,175.678,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+305,175.944,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+306,176.211,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+307,176.377,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+308,187.081,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+309,187.133,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+310,189.862,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+311,190.286,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+312,190.522,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+313,192.25,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+314,193.513,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+315,201.795,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,93,CoordY,120,,0
+316,201.796,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+317,201.796,Condition,Condition Event,GRID 2 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+318,201.796,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,6,,0,,0,,0,,0
+319,201.796,Variable,Variable Event,GRID_2_BLANK_TOUCH,,7,1,Value,2,,0,,0,,0,,0
+320,201.796,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+321,201.947,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,93,CoordY,103,,0
+322,206.397,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+323,207.123,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+324,207.205,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,97,CoordY,109,,0
+325,207.205,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+326,207.205,Condition,Condition Event,GRID 5 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+327,207.205,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,7,,0,,0,,0,,0
+328,207.205,Variable,Variable Event,GRID_5_BLANK_TOUCH,,7,1,Value,2,,0,,0,,0,,0
+329,207.205,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+330,207.396,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,57,CoordY,111,,0
+331,207.714,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,36,CoordY,110,,0
+332,207.714,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+333,207.714,Condition,Condition Event,GRID 5 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+334,207.714,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,8,,0,,0,,0,,0
+335,207.714,Variable,Variable Event,GRID_5_BLANK_TOUCH,,7,1,Value,3,,0,,0,,0,,0
+336,207.714,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+337,207.961,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,38,CoordY,94,,0
+338,208.073,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+339,208.518,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+340,212.561,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,49,CoordY,109,,0
+341,212.561,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+342,212.561,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+343,212.561,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,9,,0,,0,,0,,0
+344,212.561,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,4,,0,,0,,0,,0
+345,212.561,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+346,212.599,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,53,CoordY,109,,0
+347,216.908,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+348,217.691,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+349,236.304,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+350,236.625,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+351,238.481,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,3,Image 1,0,CoordX,103,CoordY,117,,0
+352,238.481,Condition,Condition Event,Image Touched,,7,0,,0,,0,,0,,0,,0
+353,238.481,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,7,2,Position,3,Image 1,0,,0,,0,,0
+354,238.481,OutputOn,Output On Event,Sound #2,,7,0,,0,,0,,0,,0,,0
+355,238.481,Pulse,Pulse Output Event,Sound_On #1,,7,1,Duration,0.01,,0,,0,,0,,0
+356,238.481,Variable,Variable Event,Correct_Counter,,7,1,Value,2,,0,,0,,0,,0
+357,238.481,Variable,Variable Event,PROGRESSIVE_RATIO_COUNTER,,7,1,Value,1,,0,,0,,0,,0
+358,238.481,Variable,Variable Event,Response_Timer,,7,1,Value,180.386,,0,,0,,0,,0
+359,238.481,Variable,Variable Event,Response_Timer,,7,1,Value,0,,0,,0,,0,,0
+360,238.481,Variable,Variable Event,First_Trial,,7,1,Value,0,,0,,0,,0,,0
+361,238.481,Group,Group Change Event,Group Change,,7,1,New Group,9,,0,,0,,0,,0
+362,238.482,Condition,Condition Event,PROGRESSIVE RATIO CONTINUE CALC,,9,0,,0,,0,,0,,0,,0
+363,238.482,Variable,Variable Event,ITI_Timer,,9,1,Value,180.886,,0,,0,,0,,0
+364,238.482,Variable,Variable Event,ITI_Timer,,9,1,Value,0,,0,,0,,0,,0
+365,238.482,Group,Group Change Event,Group Change,,9,1,New Group,2,,0,,0,,0,,0
+366,238.482,Condition,Condition Event,Set Image position,,2,0,,0,,0,,0,,0,,0
+367,238.482,Variable,Variable Event,Correct_Grid_Position,,2,1,Value,3,,0,,0,,0,,0
+368,238.482,ListNextValue,List Change - Next Value,Grid_Position,,2,2,Index,4,Value,3,,0,,0,,0
+369,238.482,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+370,238.482,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+371,238.482,Group,Group Change Event,Group Change,,2,1,New Group,4,,0,,0,,0,,0
+372,238.482,Condition,Condition Event,Start ITI,,4,0,,0,,0,,0,,0,,0
+373,238.482,Timer,Timer Event,ITI_Timer,,4,1,Value,0,,0,,0,,0,,0
+374,238.482,Group,Group Change Event,Group Change,,4,1,New Group,5,,0,,0,,0,,0
+375,238.671,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,5,4,Position,3,Image 1,0,CoordX,102,CoordY,118,,0
+376,238.982,Condition,Condition Event,ITI TO IMAGE TRANSITION,,5,0,,0,,0,,0,,0,,0
+377,238.982,Group,Group Change Event,Group Change,,5,1,New Group,6,,0,,0,,0,,0
+378,238.982,Condition,Condition Event,Display Image,,6,0,,0,,0,,0,,0,,0
+379,238.982,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Training_Images,6,2,Position,3,Image 1,0,,0,,0,,0
+380,238.982,OutputOff,Output Off Event,TrayLight #1,,6,0,,0,,0,,0,,0,,0
+381,238.982,Timer,Timer Event,Response_Timer,,6,1,Value,0,,0,,0,,0,,0
+382,238.982,Group,Group Change Event,Group Change,,6,1,New Group,7,,0,,0,,0,,0
+383,246.126,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+384,249.267,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+385,250.285,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+386,252.01,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+387,252.483,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+388,253.223,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+389,253.513,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+390,254.905,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+391,255.198,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+392,255.701,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+393,264.243,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,16,CoordY,77,,0
+394,264.244,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+395,264.244,Condition,Condition Event,GRID 2 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+396,264.244,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,10,,0,,0,,0,,0
+397,264.244,Variable,Variable Event,GRID_2_BLANK_TOUCH,,7,1,Value,3,,0,,0,,0,,0
+398,264.244,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+399,267.634,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,44,CoordY,49,,0
+400,267.729,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,88,CoordY,86,,0
+401,267.73,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+402,267.73,Condition,Condition Event,GRID 2 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+403,267.73,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,11,,0,,0,,0,,0
+404,267.73,Variable,Variable Event,GRID_2_BLANK_TOUCH,,7,1,Value,4,,0,,0,,0,,0
+405,267.73,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+406,267.767,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,88,CoordY,92,,0
+407,279.13,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,75,CoordY,108,,0
+408,279.13,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+409,279.13,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+410,279.13,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,12,,0,,0,,0,,0
+411,279.13,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,5,,0,,0,,0,,0
+412,279.13,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+413,279.264,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,85,CoordY,109,,0
+414,282.725,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+415,283.285,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+416,283.52,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+417,284.289,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+418,288.321,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+419,288.864,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+420,288.93,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,76,CoordY,111,,0
+421,288.931,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+422,288.931,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+423,288.931,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,13,,0,,0,,0,,0
+424,288.931,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,6,,0,,0,,0,,0
+425,288.931,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+426,289.044,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,86,CoordY,108,,0
+427,296.183,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+428,297.17,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+429,299.617,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+430,300.286,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+431,302.247,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+432,302.588,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+433,303.47,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,52,CoordY,109,,0
+434,303.47,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+435,303.47,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+436,303.47,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,14,,0,,0,,0,,0
+437,303.47,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,7,,0,,0,,0,,0
+438,303.47,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+439,303.642,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,54,CoordY,108,,0
+440,308.236,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+441,308.437,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+442,311.322,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+443,312.464,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+444,313.793,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+445,314.341,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+446,314.418,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+447,314.593,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+448,317.196,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+449,317.917,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+450,319.176,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+451,320.137,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+452,321.346,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+453,321.796,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+454,322.012,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,54,CoordY,109,,0
+455,322.012,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+456,322.012,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+457,322.012,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,15,,0,,0,,0,,0
+458,322.012,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,8,,0,,0,,0,,0
+459,322.012,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+460,322.05,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,53,CoordY,109,,0
+461,325.525,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,27,CoordY,58,,0
+462,325.526,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+463,325.526,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+464,325.526,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,16,,0,,0,,0,,0
+465,325.526,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,9,,0,,0,,0,,0
+466,325.526,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+467,325.791,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,8,CoordY,76,,0
+468,325.81,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,8,CoordY,91,,0
+469,325.81,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+470,325.81,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+471,325.81,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,17,,0,,0,,0,,0
+472,325.81,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,10,,0,,0,,0,,0
+473,325.81,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+474,326.306,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,6,CoordY,109,,0
+475,326.345,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,8,CoordY,93,,0
+476,326.345,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+477,326.345,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+478,326.345,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,18,,0,,0,,0,,0
+479,326.345,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,11,,0,,0,,0,,0
+480,326.345,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+481,326.402,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,26,CoordY,92,,0
+482,326.721,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,10,CoordY,76,,0
+483,326.722,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+484,326.722,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+485,326.722,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,19,,0,,0,,0,,0
+486,326.722,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,12,,0,,0,,0,,0
+487,326.722,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+488,326.778,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,10,CoordY,75,,0
+489,326.778,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,10,CoordY,75,,0
+490,326.779,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+491,326.779,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+492,326.779,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,20,,0,,0,,0,,0
+493,326.779,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,13,,0,,0,,0,,0
+494,326.779,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+495,326.93,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,10,CoordY,75,,0
+496,329.106,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,72,CoordY,111,,0
+497,329.107,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+498,329.107,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+499,329.107,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,21,,0,,0,,0,,0
+500,329.107,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,14,,0,,0,,0,,0
+501,329.107,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+502,329.297,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,76,CoordY,111,,0
+503,338.375,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,3,Image 1,0,CoordX,83,CoordY,127,,0
+504,338.375,Condition,Condition Event,Image Touched,,7,0,,0,,0,,0,,0,,0
+505,338.375,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,7,2,Position,3,Image 1,0,,0,,0,,0
+506,338.375,OutputOn,Output On Event,Sound #2,,7,0,,0,,0,,0,,0,,0
+507,338.375,Pulse,Pulse Output Event,Sound_On #1,,7,1,Duration,0.01,,0,,0,,0,,0
+508,338.375,Variable,Variable Event,Correct_Counter,,7,1,Value,3,,0,,0,,0,,0
+509,338.375,Variable,Variable Event,PROGRESSIVE_RATIO_COUNTER,,7,1,Value,2,,0,,0,,0,,0
+510,338.375,Variable,Variable Event,Response_Timer,,7,1,Value,99.393,,0,,0,,0,,0
+511,338.375,Variable,Variable Event,Response_Timer,,7,1,Value,0,,0,,0,,0,,0
+512,338.375,Variable,Variable Event,First_Trial,,7,1,Value,0,,0,,0,,0,,0
+513,338.375,Group,Group Change Event,Group Change,,7,1,New Group,9,,0,,0,,0,,0
+514,338.375,Condition,Condition Event,PROGRESSIVE RATIO CONTINUE CALC,,9,0,,0,,0,,0,,0,,0
+515,338.375,Variable,Variable Event,ITI_Timer,,9,1,Value,99.894,,0,,0,,0,,0
+516,338.375,Variable,Variable Event,ITI_Timer,,9,1,Value,0,,0,,0,,0,,0
+517,338.375,Group,Group Change Event,Group Change,,9,1,New Group,2,,0,,0,,0,,0
+518,338.375,Condition,Condition Event,Set Image position,,2,0,,0,,0,,0,,0,,0
+519,338.375,Variable,Variable Event,Correct_Grid_Position,,2,1,Value,3,,0,,0,,0,,0
+520,338.375,ListNextValue,List Change - Next Value,Grid_Position,,2,2,Index,5,Value,3,,0,,0,,0
+521,338.375,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+522,338.375,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,2,1,Value,0,,0,,0,,0,,0
+523,338.375,Group,Group Change Event,Group Change,,2,1,New Group,4,,0,,0,,0,,0
+524,338.375,Condition,Condition Event,Start ITI,,4,0,,0,,0,,0,,0,,0
+525,338.375,Timer,Timer Event,ITI_Timer,,4,1,Value,0,,0,,0,,0,,0
+526,338.375,Group,Group Change Event,Group Change,,4,1,New Group,5,,0,,0,,0,,0
+527,338.395,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,5,4,Position,3,Image 1,0,CoordX,83,CoordY,127,,0
+528,338.413,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,5,4,Position,3,Image 1,0,CoordX,83,CoordY,118,,0
+529,338.413,Condition,Condition Event,CENTRE TOUCHES DURING ITI,,5,0,,0,,0,,0,,0,,0
+530,338.413,Variable,Variable Event,CENTRE_TOUCHES_DURING_ITI,,5,1,Value,1,,0,,0,,0,,0
+531,338.413,GroupSame,Group Maintain Event,Group Change,,5,1,New Group,5,,0,,0,,0,,0
+532,338.471,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,5,4,Position,3,Image 1,0,CoordX,74,CoordY,118,,0
+533,338.875,Condition,Condition Event,ITI TO IMAGE TRANSITION,,5,0,,0,,0,,0,,0,,0
+534,338.875,Group,Group Change Event,Group Change,,5,1,New Group,6,,0,,0,,0,,0
+535,338.875,Condition,Condition Event,Display Image,,6,0,,0,,0,,0,,0,,0
+536,338.875,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Training_Images,6,2,Position,3,Image 1,0,,0,,0,,0
+537,338.875,OutputOff,Output Off Event,TrayLight #1,,6,0,,0,,0,,0,,0,,0
+538,338.875,Timer,Timer Event,Response_Timer,,6,1,Value,0,,0,,0,,0,,0
+539,338.875,Group,Group Change Event,Group Change,,6,1,New Group,7,,0,,0,,0,,0
+540,339.526,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+541,339.667,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+542,339.693,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+543,340.327,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+544,340.729,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+545,340.872,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+546,341.131,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+547,341.601,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+548,348.219,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+549,350.389,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+550,352.54,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+551,357.799,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+552,358.872,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+553,359.386,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+554,366.962,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,99,CoordY,109,,0
+555,366.962,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+556,366.962,Condition,Condition Event,GRID 5 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+557,366.962,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,22,,0,,0,,0,,0
+558,366.962,Variable,Variable Event,GRID_5_BLANK_TOUCH,,7,1,Value,4,,0,,0,,0,,0
+559,366.962,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+560,367.059,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,5,Image 1,0,CoordX,96,CoordY,109,,0
+561,367.929,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+562,372.969,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+563,373.729,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+564,376.924,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+565,377.228,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+566,377.317,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+567,377.394,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+568,377.506,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+569,379.392,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+570,379.616,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+571,379.756,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+572,381.73,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+573,382.428,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+574,383.102,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+575,386.213,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+576,386.342,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+577,386.657,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+578,387.538,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+579,390.405,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+580,390.595,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+581,390.956,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+582,391.017,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+583,391.065,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+584,391.966,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+585,399.948,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+586,401.136,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+587,404.488,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+588,406.195,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+589,407.268,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+590,409.073,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+591,409.363,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+592,409.406,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+593,412.232,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+594,412.66,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+595,412.749,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+596,413.254,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+597,416.155,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+598,424.128,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+599,425.251,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+600,425.905,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+601,426.221,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+602,427.676,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+603,429.432,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+604,432.029,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+605,432.993,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+606,433.008,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+607,433.053,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+608,433.056,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+609,433.57,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+610,433.757,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+611,434.038,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+612,434.316,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+613,434.517,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+614,439.199,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+615,443.509,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+616,444.852,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+617,446.588,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+618,456.753,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+619,463.021,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+620,469.51,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+621,470.574,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+622,471.36,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+623,472.407,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+624,475.154,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+625,475.55,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+626,476.463,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+627,477.301,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+628,480.816,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+629,481.197,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+630,489.511,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+631,493.587,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+632,494.23,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+633,494.25,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+634,494.27,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+635,495.126,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,48,CoordY,76,,0
+636,495.127,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+637,495.127,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+638,495.127,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,23,,0,,0,,0,,0
+639,495.127,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,15,,0,,0,,0,,0
+640,495.127,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+641,495.28,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,47,CoordY,58,,0
+642,496.898,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,80,CoordY,40,,0
+643,496.899,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+644,496.899,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+645,496.899,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,24,,0,,0,,0,,0
+646,496.899,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,16,,0,,0,,0,,0
+647,496.899,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+648,497.128,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,80,CoordY,40,,0
+649,498.007,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,47,CoordY,56,,0
+650,498.008,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+651,498.008,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+652,498.008,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,25,,0,,0,,0,,0
+653,498.008,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,17,,0,,0,,0,,0
+654,498.008,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+655,498.026,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,47,CoordY,56,,0
+656,500.345,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,1,CoordY,40,,0
+657,500.346,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+658,500.346,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+659,500.346,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,26,,0,,0,,0,,0
+660,500.346,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,18,,0,,0,,0,,0
+661,500.346,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+662,500.365,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,1,CoordY,40,,0
+663,500.383,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,1,CoordY,49,,0
+664,500.384,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+665,500.384,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+666,500.384,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,27,,0,,0,,0,,0
+667,500.384,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,19,,0,,0,,0,,0
+668,500.384,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+669,501.127,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,9,CoordY,92,,0
+670,501.946,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,52,CoordY,73,,0
+671,501.947,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+672,501.947,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+673,501.947,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,28,,0,,0,,0,,0
+674,501.947,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,20,,0,,0,,0,,0
+675,501.947,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+676,501.965,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,52,CoordY,73,,0
+677,509.687,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+678,511.595,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+679,512.416,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+680,512.654,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+681,513.522,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,49,CoordY,102,,0
+682,513.522,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+683,513.522,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+684,513.522,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,29,,0,,0,,0,,0
+685,513.522,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,21,,0,,0,,0,,0
+686,513.522,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+687,513.619,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,53,CoordY,92,,0
+688,515.788,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+689,520.302,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+690,521.036,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+691,526.351,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+692,527.787,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+693,528.263,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+694,531.709,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,14,CoordY,88,,0
+695,531.709,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+696,531.709,Condition,Condition Event,GRID 2 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+697,531.709,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,30,,0,,0,,0,,0
+698,531.709,Variable,Variable Event,GRID_2_BLANK_TOUCH,,7,1,Value,5,,0,,0,,0,,0
+699,531.709,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+700,531.881,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,2,Image 1,0,CoordX,17,CoordY,62,,0
+701,533.419,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,0,(NoImageOrVideo),-1,CoordX,0,CoordY,512,,0
+702,533.763,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,24,CoordY,40,,0
+703,534.281,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,91,CoordY,26,,0
+704,534.282,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+705,534.282,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+706,534.282,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,31,,0,,0,,0,,0
+707,534.282,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,22,,0,,0,,0,,0
+708,534.282,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+709,534.3,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,91,CoordY,26,,0
+710,537.677,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,31,CoordY,75,,0
+711,537.677,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+712,537.677,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+713,537.677,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,32,,0,,0,,0,,0
+714,537.677,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,23,,0,,0,,0,,0
+715,537.677,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+716,537.697,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,31,CoordY,75,,0
+717,538.035,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,32,CoordY,109,,0
+718,538.036,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+719,538.036,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+720,538.036,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,33,,0,,0,,0,,0
+721,538.036,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,24,,0,,0,,0,,0
+722,538.036,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+723,538.417,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,0,(NoImageOrVideo),-1,CoordX,0,CoordY,478,,0
+724,538.536,EventTouchDown,Touch Down Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,10,CoordY,75,,0
+725,538.536,Condition,Condition Event,Blank Image Touched,,7,0,,0,,0,,0,,0,,0
+726,538.536,Condition,Condition Event,GRID 1 BLANK TOUCH,,7,0,,0,,0,,0,,0,,0
+727,538.536,Variable,Variable Event,Blank_Touch_Counter,,7,1,Value,34,,0,,0,,0,,0
+728,538.536,Variable,Variable Event,GRID_1_BLANK_TOUCH,,7,1,Value,25,,0,,0,,0,,0
+729,538.536,GroupSame,Group Maintain Event,Group Change,,7,1,New Group,7,,0,,0,,0,,0
+730,539.242,EventTouchUp,Touch Up Event,Bussey Mouse Operant Mode 5 x 1 x low,,7,4,Position,1,Image 1,0,CoordX,15,CoordY,92,,0
+731,545.615,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+732,550.05,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+733,550.801,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+734,551.458,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+735,553.513,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+736,554.793,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+737,554.81,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+738,554.942,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+739,559.453,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+740,559.746,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+741,560.71,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+742,560.988,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+743,561.094,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+744,561.685,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+745,561.783,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+746,564.093,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+747,565.238,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+748,565.866,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+749,575.959,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+750,576.246,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+751,578.119,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+752,578.18,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+753,589.584,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+754,589.638,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+755,590.58,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+756,590.657,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+757,590.984,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+758,592.462,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+759,593.618,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+760,595.351,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+761,596.258,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+762,597.372,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+763,605.98,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+764,607.733,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+765,611.386,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+766,612.046,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+767,612.523,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+768,613.286,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+769,614.563,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+770,615.04,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+771,615.418,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+772,615.51,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+773,616.319,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+774,617.599,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+775,617.619,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+776,620.618,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+777,620.891,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+778,621.949,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+779,623.501,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+780,626.055,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+781,626.336,InputTransitionOn,Input Transition On Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+782,634.894,InputTransitionOff,Input Transition Off Event,BIRBeam #1,,7,0,,0,,0,,0,,0,,0
+783,635.23,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+784,635.879,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+785,636.12,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+786,636.958,InputTransitionOff,Input Transition Off Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+787,638.588,InputTransitionOn,Input Transition On Event,FIRBeam #1,,7,0,,0,,0,,0,,0,,0
+788,638.875,Condition,Condition Event,Inactivity session termination,,7,0,,0,,0,,0,,0,,0
+789,638.875,WhiskerDisplayImage,Whisker - Display Image,Bussey Mouse Operant Mode 5 x 1 x low,Background,7,2,Position,1,Image 1,0,,0,,0,,0
+790,638.875,Group,Group Change Event,Group Change,,7,1,New Group,12,,0,,0,,0,,0
+791,638.876,Variable,Variable Event,_Schedule_Timer,,12,1,Value,638.876,,0,,0,,0,,0
+792,638.876,Variable,Variable Event,_Trial_Timer,,12,1,Value,0,,0,,0,,0,,0
+793,638.876,Variable,Variable Event,ITI_Timer,,12,1,Value,300.5,,0,,0,,0,,0
+794,638.876,Variable,Variable Event,MAG_RESPONSE_TIMER,,12,1,Value,0,,0,,0,,0,,0
+795,638.876,Variable,Variable Event,Response_Timer,,12,1,Value,300,,0,,0,,0,,0
+796,638.876,Variable,Variable Event,REWARD_NEXT_TRIAL_TIMER,,12,1,Value,0,,0,,0,,0,,0
+797,638.876,ScheduleStop,Schedule Shutdown Event,(SYSTEM),,12,0,,0,,0,,0,,0,,0
